@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".horror">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimaryDark"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hc1"
+                android:id="@+id/bc1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bc1"
+                android:text="ঈশ্বরী"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/tc1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bc1"
+                android:text="তৌফির হাসান উর রাকিব"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_below="@+id/tc1"
+                />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimaryDark"
+
+            >
+
+            <ImageView
+                android:id="@+id/bc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hc2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bc2"
+                android:text="প্লেন ক্রাস"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/tc2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bc2"
+                android:text="খসরু চৌধুরী"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_below="@+id/tc2"
+                />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimaryDark"
+
+
+            >
+
+            <ImageView
+                android:id="@+id/bc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hc3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bc3"
+                android:text="শাঁখিনী"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/tc3"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bc3"
+                android:text="অনীশ দাস অপু"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_below="@+id/tc3"
+                />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
